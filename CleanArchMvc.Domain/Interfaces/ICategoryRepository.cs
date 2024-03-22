@@ -11,5 +11,6 @@ namespace CleanArchMvc.Domain.Interfaces
         Task<Category> Create(Category category);
         Task<Category> Update(Category category);
         Task<Category> Removo(Category category);
+        Task Remove(Category categoryEntity);
     }
 }
