@@ -3,7 +3,7 @@ using MediatR;
 
 namespace CleanArchMvc.Application.Products.Commands
 {
-    internal class ProductRemoveCommand : IRequest<Product>
+    public class ProductRemoveCommand : IRequest<Product>
     {
         public int Id { get; set; }
         public ProductRemoveCommand(int id)
